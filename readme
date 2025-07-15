@@ -23,8 +23,8 @@ This project is a Python-based pipeline that ingests raw sensor data in CSV form
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/sensor-pipeline.git
-cd sensor-pipeline
+git clone https://github.com/kishorsDevelop/SatSure_Assignment.git
+cd SatSure_Assignment
 ```
 
 ### 2. Set Up Virtual Environment
