@@ -1,0 +1,58 @@
+2025-07-15 13:11:09,600 - INFO - Processing file: data/raw\sample_sensor_data.parquet
+2025-07-15 13:11:09,983 - INFO - Ingestion Summary:
+   total_records  nulls  unique_sensors
+0             30    0.0               5
+2025-07-15 13:11:11,526 - INFO - Transformed file saved: data/processed\sample_sensor_data_transformed.parquet
+2025-07-15 13:11:23,449 - INFO - Processing file: data/raw\sample_sensor_data.parquet
+2025-07-15 13:11:23,485 - INFO - Ingestion Summary:
+   total_records  nulls  unique_sensors
+0             30    0.0               5
+2025-07-15 13:11:23,763 - INFO - Transformed file saved: data/processed\sample_sensor_data_transformed.parquet
+2025-07-15 13:13:11,898 - INFO - Processing file: data/raw\sample_sensor_data.parquet
+2025-07-15 13:13:11,941 - INFO - Ingestion Summary:
+   total_records  nulls  unique_sensors
+0             30    0.0               5
+2025-07-15 13:13:12,185 - INFO - Transformed file saved: data/processed\sample_sensor_data_transformed.parquet
+2025-07-15 13:15:10,249 - INFO - Processing file: data/raw\sample_sensor_data.parquet
+2025-07-15 13:15:10,288 - INFO - Ingestion Summary:
+   total_records  nulls  unique_sensors
+0             30    0.0               5
+2025-07-15 13:15:10,500 - INFO - Transformed file saved: data/processed\sample_sensor_data_transformed.parquet
+2025-07-15 13:15:48,715 - INFO - Processing file: data/raw\sample_sensor_data.parquet
+2025-07-15 13:15:48,762 - INFO - Ingestion Summary:
+   total_records  nulls  unique_sensors
+0             30    0.0               5
+2025-07-15 13:15:49,009 - INFO - Transformed file saved: data/processed\sample_sensor_data_transformed.parquet
+2025-07-15 13:16:23,669 - INFO - Processing file: data/raw\sample_sensor_data.parquet
+2025-07-15 13:16:23,716 - INFO - Ingestion Summary:
+   total_records  nulls  unique_sensors
+0             30    0.0               5
+2025-07-15 13:16:23,976 - INFO - Transformed file saved: data/processed\sample_sensor_data_transformed.parquet
+2025-07-15 13:17:34,561 - INFO - Processing file: data/raw\sample_sensor_data.parquet
+2025-07-15 13:17:34,592 - INFO - Ingestion Summary:
+   total_records  nulls  unique_sensors
+0             30    0.0               5
+2025-07-15 13:17:34,820 - INFO - Transformed file saved: data/processed\sample_sensor_data_transformed.parquet
+2025-07-15 13:18:13,069 - INFO - Processing file: data/raw\sample_sensor_data.parquet
+2025-07-15 13:18:13,112 - INFO - Ingestion Summary:
+   total_records  nulls  unique_sensors
+0             30    0.0               5
+2025-07-15 13:18:13,367 - INFO - Transformed file saved: data/processed\sample_sensor_data_transformed.parquet
+2025-07-15 13:18:16,942 - INFO - Files read: 1
+2025-07-15 13:18:16,942 - INFO - Records processed: 30
+2025-07-15 13:18:16,942 - INFO - Records skipped: 0
+2025-07-15 13:20:57,902 - INFO - Files read: 0
+2025-07-15 13:20:57,903 - INFO - Records processed: 0
+2025-07-15 13:20:57,903 - INFO - Records skipped: 0
+2025-07-15 13:21:19,733 - INFO - Files read: 0
+2025-07-15 13:21:19,733 - INFO - Records processed: 0
+2025-07-15 13:21:19,733 - INFO - Records skipped: 0
+2025-07-15 13:25:11,696 - INFO - Files read: 0
+2025-07-15 13:25:11,696 - INFO - Records processed: 0
+2025-07-15 13:25:11,696 - INFO - Records skipped: 0
+2025-07-15 14:43:49,924 - INFO - Files read: 0
+2025-07-15 14:43:49,925 - INFO - Records processed: 0
+2025-07-15 14:43:49,925 - INFO - Records skipped: 0
+2025-07-15 14:45:19,686 - INFO - Files read: 0
+2025-07-15 14:45:19,687 - INFO - Records processed: 0
+2025-07-15 14:45:19,687 - INFO - Records skipped: 0

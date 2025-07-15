@@ -1,0 +1,121 @@
+# 🌡️ Sensor Data Ingestion Pipeline
+
+This project is a Python-based pipeline that ingests raw sensor data in CSV format, performs cleaning, transformation, validation, and stores it efficiently in Parquet format, optimized for analytical workloads.
+
+## 📁 Project Structure
+
+```
+.
+├── data/
+│   ├── raw/              # Raw CSV input files
+│   └── processed/        # Partitioned, compressed Parquet output
+├── ingest.py             # Main entry point
+├── transform.py          # Data cleaning, calibration, transformation
+├── validate.py           # Data quality checks using DuckDB
+├── loader.py             # Optimized Parquet storage
+├── data_quality_report.csv
+├── requirements.txt
+└── README.md
+```
+
+## 🚀 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/sensor-pipeline.git
+cd sensor-pipeline
+```
+
+### 2. Set Up Virtual Environment
+
+```bash
+python -m venv env
+source env/bin/activate   # On Windows: env\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## ▶️ Running the Pipeline
+
+Place raw sensor CSV files inside the `data/raw/` directory.
+
+Then run:
+
+```bash
+python ingest.py
+```
+
+This will:
+
+1. Clean and calibrate the sensor data.
+2. Detect anomalies.
+3. Validate data using DuckDB.
+4. Store the processed data in partitioned Parquet format.
+5. Generate `data_quality_report.csv`.
+
+## 🧠 Logic Breakdown
+
+### ✅ Calibration
+
+Each sensor reading is calibrated as:
+
+```
+calibrated_value = raw_value * multiplier + offset
+```
+
+Configured in `transform.py`.
+
+### ⚠️ Anomaly Detection
+
+Flag values that fall outside configured range.
+
+### 🧪 Validation with DuckDB
+
+Checks:
+
+- Correct types (float, timestamp)
+- Hourly time coverage using `generate_series`
+- Missing data
+- Anomalies
+- Time gaps
+
+Output: `data_quality_report.csv`
+
+## 🧊 Storage
+
+Parquet format, partitioned by:
+
+```
+data/processed/date=YYYY-MM-DD/sensor_id=SENSOR_ID/readings.parquet
+```
+
+Optimizations:
+
+- Columnar format
+- Partitioning
+- Snappy compression
+
+## 📝 Example Output
+
+```
+data/
+├── raw/
+│   └── sensor_readings.csv
+├── processed/
+│   └── date=2025-06-05/
+│       └── sensor_id=sensor_1/
+│           └── readings.parquet
+├── data_quality_report.csv
+```
+
+## 💬 Contact
+
++91 9717089280/ +91 7011318607
+
+📌 Author: Kishor Kumar
+📅 Date: July 2025

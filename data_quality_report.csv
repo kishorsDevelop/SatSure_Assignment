@@ -1,0 +1,10 @@
+sensor_id,reading_type,expected_count,actual_count,missing_hours
+sensor_2,temperature,2,0,2
+sensor_1,temperature,2,0,2
+sensor_5,humidity,2,0,2
+sensor_4,humidity,1,0,1
+sensor_5,temperature,2,0,2
+sensor_2,humidity,2,0,2
+sensor_1,humidity,2,0,2
+sensor_4,temperature,3,0,3
+sensor_3,humidity,2,0,2
